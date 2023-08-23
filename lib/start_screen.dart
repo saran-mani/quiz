@@ -15,20 +15,20 @@ class StartScreen extends StatelessWidget {
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300,
-            color: const Color.fromARGB(110, 255, 255, 255),
+            color: const Color.fromARGB(150, 255, 255, 255),
           ),
           // Opacity(
-          //   opacity: 0.5,
+          //   opacity: 0.6,
           //   child: Image.asset(
           //     'assets/images/quiz-logo.png',
           //     width: 300,
           //   ),
           // ),
-          const SizedBox(height: 30),
+          const SizedBox(height: 80),
           Text(
-            "Learn flutter the fun way",
+            'Learn Flutter the fun way!',
             style: GoogleFonts.lato(
-              color: Colors.white,
+              color: const Color.fromARGB(255, 237, 223, 252),
               fontSize: 24,
             ),
           ),
@@ -39,8 +39,8 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
             ),
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Start quiz'),
-          ),
+            label: const Text('Start Quiz'),
+          )
         ],
       ),
     );
